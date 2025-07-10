@@ -1,3 +1,3 @@
-from .openai import OpenAI
+from .openai import OpenAI, AzureOpenAIConfig
 
-__all__ = ['OpenAI']
+__all__ = ['OpenAI', 'AzureOpenAIConfig']
